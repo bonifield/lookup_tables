@@ -1,7 +1,6 @@
 # splunk-lookup-tables
-### Various lookup tables for Splunk, or any other program that reads the CSV format (any spreadsheet program or basic text editor).
 
-### Lookups provide an easy way to enrich your data by using a separate file to add context to your logs. Here is a [link to making automatic lookups in Splunk](https://docs.splunk.com/Documentation/Splunk/7.3.1/Knowledge/DefineanautomaticlookupinSplunkWeb).
+### A collection of various lookup tables for Splunk, or any other program that reads the CSV format (any spreadsheet program or basic text editor). Lookups provide an easy way to enrich your data by using a separate file to add context to your logs. Here is a [link decribing how to make automatic lookups in Splunk](https://docs.splunk.com/Documentation/Splunk/7.3.1/Knowledge/DefineanautomaticlookupinSplunkWeb).
 
 ### The general naming convention, with few exceptions, is *field-name-as-seen-in-Splunk*_table.csv
 
