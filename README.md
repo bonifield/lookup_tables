@@ -22,6 +22,7 @@
 ### Lookup Tables
 - network_http_status.csv
 	- for HTTP codes, from [Splunk documentation](https://wiki.splunk.com/Http_status.csv)
+	- useful for Zeek or any other log type where HTTP status codes are found
 - sysmon_EventCode_table.csv
 	- for [Sysmon event codes](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - windows_Impersonation_Level_table.csv
