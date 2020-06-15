@@ -11,6 +11,6 @@
 - Impersonation_Level_table.csv
 	- for COM impersonation levels, seen in Windows Security logs
 - Logon_Type_table.csv
-	- collection of Windows logon types, seen in Windows Security logs
+	- collection of Windows logon types, seen in Windows Security logs, [Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc787567(v=ws.10)) documentation
 - windows_system_error_codes_table.csv
 	- collection of Windows error codes from [Microsoft](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes) documentation
