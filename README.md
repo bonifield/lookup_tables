@@ -14,7 +14,7 @@
 		- input field: left is the name inside the CSV/definition, right is field name CURRENTLY in the Splunk database. This is how the CSV joins/aligns itself to Splunk data.
 		- output field: left is the name inside the CSV/definition, right is field name as it WILL appear in Splunk query results
 
-### The general naming convention, with few exceptions, is *field-name-as-seen-in-Splunk*_table.csv
+### The general naming convention, with few exceptions, is *type*_*field-name-as-seen-in-Splunk*_table.csv
 
 ### TO DO:
 - list of things to do
