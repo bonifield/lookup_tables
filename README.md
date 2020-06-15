@@ -9,7 +9,7 @@
 	- Lookup definitions --> Add new
 		- select the app (likely Search), set the name (same as the CSV name, MINUS the extension, or with _definition suffix), File-based, select the lookup added in the previous step
 		- Advanced options --> un-check "Case sensitive match"
-	- Automatic lookups
+	- Automatic lookups --> Add new
 		- set the name, select the lookup definition (again, based on the file uploaded), set the sourcetype to be affected
 		- input field: left is the name inside the CSV/definition, right is field name CURRENTLY in the Splunk database. This is how the CSV joins/aligns itself to Splunk data.
 		- output field: left is the name inside the CSV/definition, right is field name as it WILL appear in Splunk query results
