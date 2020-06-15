@@ -6,7 +6,7 @@
 ### The general naming convention, with few exceptions, is *field-name-as-seen-in-Splunk*_table.csv
 
 ### TO DO:
-- add event code 23 (added in v11) to EventCode_table.csv
+- list of things to do
 
 ### Lookup Tables
 - conn_state_table.csv
