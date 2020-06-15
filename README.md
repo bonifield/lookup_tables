@@ -1,6 +1,8 @@
 # splunk-lookup-tables
 ### various lookup tables for Splunk, or any other program that reads the CSV format (any spreadsheet program or basic text editor)
 
+### the general naming convention, with few exceptions, is *field-name-as-seen-in-Splunk*_table.csv
+
 - conn_state_table.csv
 	- a [lookup table](https://docs.splunk.com/Documentation/Splunk/7.3.1/Knowledge/DefineanautomaticlookupinSplunkWeb) for Zeek's conn_state field
 - EventCode_table.csv
