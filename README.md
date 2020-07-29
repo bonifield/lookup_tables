@@ -20,6 +20,9 @@
 - list of things to do
 
 ### Lookup Tables
+- mitre_attack_v7_table.csv
+	- [MITRE ATT&CK framework](https://attack.mitre.org/) v7, including sub-techniques
+	- updated 2020-07-29
 - network_http_status.csv
 	- for HTTP codes, from [Splunk documentation](https://wiki.splunk.com/Http_status.csv)
 	- useful for Zeek or any other log type where HTTP status codes are found
