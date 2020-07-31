@@ -1,8 +1,8 @@
-# splunk-lookup-tables
+# Lookup Tables
 
-### A collection of various useful lookup tables for Splunk, or any other program that reads the CSV format (any spreadsheet program or basic text editor). Lookups provide an easy way to enrich your data by using a separate file to add context to your logs.
+### A collection of various useful lookup tables for Splunk, or any other program that can parse CSVs (Python, Excel, etc). Lookups provide an easy way to enrich your data by using a separate file to add context to your logs.
 
-### Here is [official Splunk lookup documentation](https://docs.splunk.com/Documentation/Splunk/7.3.1/Knowledge/DefineanautomaticlookupinSplunkWeb), this one from [Hurricane Labs](https://www.hurricanelabs.com/blog/splunk-enterprise-security-automatic-identity-lookup-tables-using-active-directory-ldap), or follow the steps below:
+### Regarding Splunk lookups, here is [official Splunk lookup documentation](https://docs.splunk.com/Documentation/Splunk/7.3.1/Knowledge/DefineanautomaticlookupinSplunkWeb), this one from [Hurricane Labs](https://www.hurricanelabs.com/blog/splunk-enterprise-security-automatic-identity-lookup-tables-using-active-directory-ldap), or follow the steps below:
 - Settings --> Lookups
 	- Lookup table files --> Add new
 		- upload the table, provide the name of the file as it will appear in Splunk (just use the same name AND INCLUDE THE EXTENSION)
@@ -17,7 +17,7 @@
 ### The general naming convention, with few exceptions, is *type*_*field-name-as-seen-in-Splunk*_table.csv
 
 ### TO DO:
-- list of things to do
+- Get all of the lists!
 
 ### Lookup Tables
 - mitre_attack_v7_table.csv
