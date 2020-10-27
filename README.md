@@ -28,6 +28,12 @@
 	- useful for Zeek or any other log type where HTTP status codes are found
 - sysmon_EventCode_table.csv
 	- for [Sysmon event codes](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
+- windows_EventCode_table.csv
+	- Windows 7/Vista/8/10, Windows Server 2008/2012R2/2016/2019
+	- source: [Andrea Fortuna](https://www.andreafortuna.org/2019/06/12/windows-security-event-logs-my-own-cheatsheet/)
+- windows_EventCode_table_old-XP-2000-2003.csv
+	- Windows 2000/XP and Windows Server 2003
+	- source: [Andrea Fortuna](https://www.andreafortuna.org/2019/06/12/windows-security-event-logs-my-own-cheatsheet/)
 - windows_Impersonation_Level_table.csv
 	- for COM impersonation levels, seen in Windows Security logs, from [Microsoft](https://docs.microsoft.com/en-us/windows/win32/com/impersonation-levels) documentation
 - windows_Logon_Type_table.csv
