@@ -44,5 +44,7 @@
 	- types (management, control, data, extension) and subtypes (probe request, response, etc)
 	- source: [Wikipedia](https://en.wikipedia.org/wiki/802.11_Frame_Types)
 	- note: if using Python and Scapy, use zfill if desired: ```type = str(bin(pkt.type)[2:].zfill(2))``` ```subType = str(bin(pkt.subtype)[2:].zfill(4))```
+- wlan_frame_types.dictionary
+	- a Python dictionary version of [wlan_frame_types.csv](https://github.com/bonifield/lookup_tables/blob/master/wlan_frame_types.csv)
 - zeek_conn_state_table.csv
 	- a for Zeek's [conn_state](https://docs.zeek.org/en/current/scripts/base/protocols/conn/main.zeek.html) field
