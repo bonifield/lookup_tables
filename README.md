@@ -48,3 +48,4 @@
 	- a Python dictionary version of [wlan_frame_types.csv](https://github.com/bonifield/lookup_tables/blob/master/wlan_frame_types.csv)
 - zeek_conn_state_table.csv
 	- a for Zeek's [conn_state](https://docs.zeek.org/en/current/scripts/base/protocols/conn/main.zeek.html) field
+	- optionally use ```typeName = types[type]["description"]``` ```subTypeName = types[type]["subtype"][subType]["description"]```
