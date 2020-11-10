@@ -46,6 +46,6 @@
 	- note: if using Python and Scapy, use zfill if desired: ```type = str(bin(pkt.type)[2:].zfill(2))``` ```subType = str(bin(pkt.subtype)[2:].zfill(4))```
 - wlan_frame_types.dictionary
 	- a Python dictionary version of [wlan_frame_types.csv](https://github.com/bonifield/lookup_tables/blob/master/wlan_frame_types.csv)
+	- optionally use ```typeName = types[type]["description"]``` ```subTypeName = types[type]["subtype"][subType]["description"]``` if also using the above type/subType variables
 - zeek_conn_state_table.csv
 	- a for Zeek's [conn_state](https://docs.zeek.org/en/current/scripts/base/protocols/conn/main.zeek.html) field
-	- optionally use ```typeName = types[type]["description"]``` ```subTypeName = types[type]["subtype"][subType]["description"]```
