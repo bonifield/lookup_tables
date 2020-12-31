@@ -1,4 +1,4 @@
-EventCode,EventCodeDescription
+EventCode,EventCodeName,EventCodeDescription
 512,"Windows NT is starting up"
 513,"Windows is shutting down"
 514,"An authentication package has been loaded by the Local Security Authority"
