@@ -20,7 +20,7 @@ EventCode,EventCodeName,EventCodeDescription
 536,"Logon Failure","The NetLogon component is not active"
 537,"Logon failure","The logon attempt failed for other reasons."
 538,"User Logoff",""
-539,"Logon Failure,"Account locked out"
+539,"Logon Failure","Account locked out"
 540,"Successful Network Logon",""
 551,"User initiated logoff",""
 552,"Logon attempt using explicit credentials",""
