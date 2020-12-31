@@ -31,7 +31,7 @@ EventCode,EventCodeName,EventCodeDescription
 564,"Object Deleted",""
 565,"Object Open (Active Directory)",""
 566,"Object Operation (Active Directory)",""
-567,"Object Access Attempt","",""
+567,"Object Access Attempt",""
 576,"Special privileges assigned to new logon",""
 577,"Privileged Service Called",""
 578,"Privileged object operation",""
