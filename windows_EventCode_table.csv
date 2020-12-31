@@ -1,4 +1,4 @@
-EventCodeName,EventCodeDescription
+EventCode,EventCodeDescription
 1100,"The event logging service has shut down"
 1101,"Audit events have been dropped by the transport."
 1102,"The audit log was cleared"
