@@ -20,6 +20,8 @@
 - Get all of the lists!
 
 ### Lookup Tables
+- html_link_dict.dictionary
+	- collection of HTML tags and attributes known to contain links (though some may contain other objects); not all-inclusive; used by [extractlinks](https://github.com/bonifield/extractlinks) as "link_dict"
 - mitre_attack_v7_table.csv
 	- [MITRE ATT&CK framework](https://attack.mitre.org/) v7, including sub-techniques
 	- updated 2020-07-29
