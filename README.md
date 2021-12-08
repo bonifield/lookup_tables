@@ -40,6 +40,9 @@
 	- for COM impersonation levels, seen in Windows Security logs, from [Microsoft](https://docs.microsoft.com/en-us/windows/win32/com/impersonation-levels) documentation
 - windows_Logon_Type_table.csv
 	- collection of Windows logon types, seen in Windows Security logs, from [Microsoft](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc787567(v=ws.10)) documentation
+- windows_ProcessSpecificAccessRights_table.csv
+	- describes Windows process-specific access rights; useful for investigating Sysmon event code 10, "Process Access"
+	- sources: [Microsoft](https://docs.microsoft.com/en-us/windows/win32/procthread/process-security-and-access-rights?redirectedfrom=MSDN), [Roberto Rodriguez](https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_22.html)
 - windows_system_error_codes_table.csv
 	- collection of Windows error codes, from [Microsoft](https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes) documentation
 - wlan_frame_types.csv
