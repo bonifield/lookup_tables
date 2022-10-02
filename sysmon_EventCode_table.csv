@@ -25,5 +25,6 @@ EventCode,EventCodeName,EventCodeDescription
 24,"ClipboardChange (New content in the clipboard)","This event is generated when the system clipboard contents change."
 25,"ProcessTampering (Process image change)","This event is generated when a process image is changed from an external source, such as a different process."
 26,"FileDeleteDetected","A file was deleted."
-27,"FileBlockExecutable","An executable was prevented from being created."
+27,"FileBlockExecutable","This event is generated when Sysmon detects and blocks the creation of executable files."
+28,"FileBlockShredding","This event is generated when Sysmon detects and blocks file shredding from tools such as SDelete."
 255,"Error","This event is generated when an error occurred within Sysmon. They can happen if the system is under heavy load and certain tasked could not be performed or a bug exists in the Sysmon service."
