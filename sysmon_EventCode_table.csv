@@ -21,7 +21,7 @@ EventCode,EventCodeName,EventCodeDescription
 20,"WmiEvent (WmiEventConsumer Activity Detected)","This event logs the registration of WMI consumers, recording the consumer name, log, and destination."
 21,"WmiEvent (WmiEventConsumerToFilter Activity Detected)","When a consumer binds to a filter, this event logs the consumer name and filter path."
 22,"DNSEvent (DNS query)","This event generates when a process executes a DNS query, whether the result is successful or fails, cached or not. The telemetry for this event was added for Windows 8.1 so it is not available on Windows 7 and earlier."
-23,"FileDelete (A file delete was detected)","A file was deleted."
+23,"FileDelete (A file delete was detected)","A file was deleted. Additionally to logging the event, the deleted file is also saved in the ArchiveDirectory (which is C:\Sysmon by default). Under normal operating conditions this directory might grow to an unreasonable size - see event ID 26: FileDeleteDetected for similar behavior but without saving the deleted files."
 24,"ClipboardChange (New content in the clipboard)","This event is generated when the system clipboard contents change."
 25,"ProcessTampering (Process image change)","This event is generated when a process image is changed from an external source, such as a different process."
 26,"FileDeleteDetected","A file was deleted."
