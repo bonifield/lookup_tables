@@ -36,6 +36,8 @@
 - windows_EventCode_table_old-XP-2000-2003.csv
 	- Windows 2000/XP and Windows Server 2003
 	- sources: [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/), [Andrea Fortuna](https://www.andreafortuna.org/2019/06/12/windows-security-event-logs-my-own-cheatsheet/)
+- windows_ControlAccessRights_table.csv
+	- sources: [MS-ADTS 5.1.3.2.1 Control Access Rights](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/1522b774-6464-41a3-87a5-1e5633c3fbbb), [Access Control Entities definition](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/b645c125-a7da-4097-84a1-2fa7cea07714#gt_9f92aa05-dd0a-45f2-88d6-89f1fb654395)
 - windows_Impersonation_Level_table.csv
 	- for COM impersonation levels, seen in Windows Security logs, from [Microsoft](https://docs.microsoft.com/en-us/windows/win32/com/impersonation-levels) documentation
 - windows_Logon_Type_table.csv
