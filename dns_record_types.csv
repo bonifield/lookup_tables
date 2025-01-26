@@ -45,7 +45,7 @@ SSHFP,44,RFC 4255,SSH Public Key Fingerprint,"Resource record for publishing SSH
 SVCB,64,RFC 9460,Service Binding,RR that improves performance for clients that need to resolve many resources to access a domain.
 TA,32768,-,DNSSEC Trust Authorities,Part of a deployment proposal for DNSSEC without a signed DNS root. See the IANA database and Weiler Spec for details. Uses the same format as the DS record.
 TKEY,249,RFC 2930,Transaction Key record,A method of providing keying material to be used with TSIG that is encrypted under the public key in an accompanying KEY RR.
-TLSA,52,RFC 6698,TLSA certificate association,"A record for DANE. RFC 6698 defines The TLSA DNS resource record is used to associate a TLS server certificate or public key with the domain name where the record is found," thus forming a 'TLSA certificate association'""."""
+TLSA,52,RFC 6698,TLSA certificate association,"A record for DANE. RFC 6698 defines 'The TLSA DNS resource record is used to associate a TLS server certificate or public key with the domain name where the record is found,' thus forming a 'TLSA certificate association'."
 TSIG,250,RFC 2845,Transaction Signature,"Can be used to authenticate dynamic updates as coming from an approved client, or to authenticate responses as coming from an approved recursive name server similar to DNSSEC."
 TXT,16,RFC 1035,Text record,"Originally for arbitrary human-readable text in a DNS record. Since the early 1990s, however, this record more often carries machine-readable data, such as specified by RFC 1464, opportunistic encryption, Sender Policy Framework, DKIM, DMARC, DNS-SD, etc."
 URI,256,RFC 7553,Uniform Resource Identifier,Can be used for publishing mappings from hostnames to URIs.
