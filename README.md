@@ -20,6 +20,8 @@
 - Get all of the lists!
 
 ### Lookup Tables
+- dns_record_types.csv
+	- DNS record types from [Wikipedia](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 - html_link_dict.dictionary
 	- collection of HTML tags and attributes known to contain links (though some may contain other objects); not all-inclusive; used by [extractlinks](https://github.com/bonifield/extractlinks) as "link_dict"
 - mitre_attack_v7_table.csv
